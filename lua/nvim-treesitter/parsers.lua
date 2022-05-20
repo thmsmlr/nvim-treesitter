@@ -1068,6 +1068,15 @@ list.proto = {
   filetype = "proto",
 }
 
+list.m68k = {
+  install_info = {
+    url = "https://github.com/thmsmlr/tree-sitter-rec",
+    files = { "src/parser.c" },
+  },
+  maintainers = { "@thmsmlr" },
+  filetype = "rec",
+}
+
 local M = {
   list = list,
   filetype_to_parsername = filetype_to_parsername,
